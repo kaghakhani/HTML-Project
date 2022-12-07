@@ -1,0 +1,30 @@
+/*
+li > span{
+    background: green;
+}
+li.item2~span{
+    background: gold;
+}
+li:hover{
+    background-color: indigo;
+
+}
+li:hover a{
+    color: white;
+}
+ul li:first-child{
+    background-color: aqua;
+}
+*/
+li::before{
+    content: " befor ";
+    color: red;
+}
+
+li::after{
+    content: " aftre ";
+    color: blueviolet;
+}
+p::first-line{
+    font-weight: bold;
+}
