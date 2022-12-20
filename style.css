@@ -16,15 +16,33 @@ ul li:first-child{
     background-color: aqua;
 }
 */
-li::before{
+html{
+    color: red;
+}
+li::before {
     content: " befor ";
     color: red;
 }
 
-li::after{
+li::after {
     content: " aftre ";
     color: blueviolet;
 }
-p::first-line{
+
+p::first-line {
     font-weight: bold;
+}
+p{
+    margin: 50px 40px;
+    padding: 30px 20px;
+    border: 4px solid black;
+    background: aqua;
+    color: chartreuse;
+}
+.header * {
+    font-weight: bold;
+}
+p{
+    background:  gold;
+    color: brown;
 }
