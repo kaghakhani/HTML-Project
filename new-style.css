@@ -1,7 +1,81 @@
-.header{
-    background: url("./photo1.jpg") red 0 /cover ;
-    width: 100%;
-    height: 200px;
-    padding: 20px;
+@font-face {
+    font-family: "vazir me";
+    src: url("./font/Vazir-Code.woff2") format("woff2"),
+    url("./font/Vazir-Code.woff") format("woff"),
+    url("./font/Vazir-Code.ttf") format("ttf"),
+    url("./font/Vazir-Code.eot") format("eot");
+}
 
+html {
+    fonts: 100% Yekan, sans-serif;
+
+}
+
+.header {
+    /*
+    background: url("./photo1.jpg") red 0 /cover;
+    */
+    font-family: Vazirmatn, Yekan, "vazir me", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    /*
+    font: bold italic 16px/2 Vazirmatn, Yekan, sans-serif;
+    */
+    /*line-height: 2;*/
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    /*text-decoration: underline overline #FF3028;*/
+    text-shadow: 5px 5px yellow;
+    text-align: justify;
+    /*white-space: nowrap;*/
+    /*word-spacing: 20px;*/
+    /*letter-spacing: 10px;*/
+    word-break: break-all;
+
+}
+
+footer {
+    /* background-color:red;*/
+    background: url("./photo1.jpg");
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
+    filter: drop-shadow(-10px -10px 10px rgba(255, 0, 0, 0.43));
+    /*filter: blur(5px) brightness(50%) contrast(200%);*/
+    /*filter: brightness(50%);*/
+    /*filter:contrast(200%);*/
+
+}
+
+.center {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer:hover {
+    filter: blur(0px);
+}
+
+.box {
+    width: 50%;
+    height: 50%;
+    background: #f2e93f;
+}
+
+.box2 {
+    width: 50%;
+    height: 50%;
+    background: red;
+}
+
+header p {
+    font-size: 1em;
+    margin: 2em;
+}
+
+header h2 {
+    font-size: 2rem;
 }
